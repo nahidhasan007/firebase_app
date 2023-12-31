@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to our App"
@@ -16,5 +17,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/users_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="See All Users"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome_text" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
